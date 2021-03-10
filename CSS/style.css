@@ -1,0 +1,410 @@
+ul {
+  list-style: none;
+}
+
+span {
+  color: #4871ec;
+}
+
+header {
+  overflow-x: hidden;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+}
+
+header .row {
+  margin-right: -30px;
+}
+
+header .logo-outer {
+  background-color: #1f1f1f;
+  -webkit-transform: skewX(-20deg);
+          transform: skewX(-20deg);
+  margin-left: -30px;
+}
+
+header .logo-outer .logo-inner {
+  background-color: rgba(153, 76, 204, 0.5);
+  margin-right: 3%;
+}
+
+header .logo-outer .logo-inner img {
+  padding-left: 190px;
+  width: 80%;
+  display: block;
+  -webkit-transform: skewX(20deg);
+          transform: skewX(20deg);
+}
+
+header .navigation-bar {
+  -webkit-transform: skewX(-20deg);
+          transform: skewX(-20deg);
+  padding-left: 0;
+}
+
+header .navigation-bar .nav-bar-top div,
+header .navigation-bar .nav-bar-bottom div {
+  display: block;
+  -webkit-transform: skewX(20deg);
+          transform: skewX(20deg);
+}
+
+header .navigation-bar .nav-bar-top {
+  background-color: #fff;
+}
+
+header .navigation-bar .nav-bar-top div ul {
+  margin-left: 120px;
+}
+
+header .navigation-bar .nav-bar-top div ul li {
+  margin-right: 15px;
+  line-height: 25px;
+}
+
+header .navigation-bar .nav-bar-top div ul li ion-icon {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+header .navigation-bar .nav-bar-top div ul .email {
+  margin-right: 50px;
+}
+
+header .navigation-bar .nav-bar-top div ul .nav-icon ion-icon {
+  border: 1px solid #fafafa;
+  padding: 3px;
+  color: #000;
+  background-color: #dadada;
+}
+
+header .navigation-bar .nav-bar-bottom {
+  background-color: #e4e4e4;
+}
+
+header .navigation-bar .nav-bar-bottom ul {
+  margin-left: 305px;
+}
+
+header .navigation-bar .nav-bar-bottom ul li {
+  margin-right: 30px;
+}
+
+header .navigation-bar .nav-bar-bottom ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+  text-transform: uppercase;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+header .navigation-bar .nav-bar-bottom ul li a:hover {
+  color: #36f;
+}
+
+header .navigation-bar .nav-bar-bottom ul li:last-child {
+  margin-right: 0;
+}
+
+.section-hero {
+  height: 40%;
+}
+
+.section-about .container .row {
+  width: 65%;
+  margin: 0 auto;
+  background-color: #fafafa;
+}
+
+.section-about .container .row .about-us {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: color 0.2s, padding 0.2s, -webkit-transform 1s;
+  transition: color 0.2s, padding 0.2s, -webkit-transform 1s;
+  transition: transform 1s, color 0.2s, padding 0.2s;
+  transition: transform 1s, color 0.2s, padding 0.2s, -webkit-transform 1s;
+}
+
+.section-about .container .row .about-us i {
+  float: right;
+  font-size: 250%;
+  color: #4871ec;
+}
+
+.section-about .container .row .about-us:hover {
+  background-color: #4871ec;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #fff;
+  padding: 15px;
+}
+
+.section-about .container .row .about-us:hover i {
+  color: #fff;
+}
+
+.section-services .container {
+  background-color: #fafafa;
+}
+
+.section-services .container .relative {
+  position: relative;
+}
+
+.section-services .container .col-md-3,
+.section-services .container .col-md-4 {
+  padding-left: 0;
+}
+
+.section-services .container .col-md-3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-services .container .our-services {
+  padding: 2%;
+}
+
+.section-services .container .our-services img {
+  display: block;
+  width: 100%;
+  height: 80%;
+}
+
+.section-services .container .our-services img:hover .text {
+  opacity: 1;
+}
+
+.section-services .container .our-services .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.section-services .container p {
+  font-weight: 600;
+  padding-bottom: 2%;
+}
+
+.section-testimonial .testimonial-head {
+  padding-top: 2%;
+}
+
+.section-testimonial .testimonial-head img {
+  width: 100px;
+  height: 100px;
+}
+
+.section-testimonial .testimonial-head .testimonial h2 {
+  margin-bottom: 25px;
+}
+
+.section-testimonial .testimonial-head .testimonial .quote {
+  font-size: 20px;
+  padding: 1.5%;
+  display: inline;
+  color: #4871ec;
+  border: 1px solid #4871ec;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.section-testimonial .testimonial-head .testimonial p {
+  margin-top: 30px;
+}
+
+.section-testimonial .testimonial-head .testimonial .testimonial-logo {
+  font-size: 200%;
+  border: 5px solid #dadada;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #4871ec;
+  display: inline-block;
+}
+
+.section-testimonial .testimonial-head .testimonial .testimonial-logo::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 5px;
+  left: 48px;
+  height: 112px;
+  background-color: #dadada;
+}
+
+.section-testimonial .testimonial-head .testimonial .testimonial-logo i {
+  padding: 14px;
+  color: #fff;
+}
+
+.section-testimonial .testimonial-head .testimonial .professional-workers::after {
+  display: none;
+}
+
+.section-testimonial .testimonial-head .testimonial .testimonial-about {
+  width: 80%;
+}
+
+.section-info .col-md-4 {
+  padding-left: 0;
+}
+
+.section-info .col-md-8 {
+  padding-right: 0;
+}
+
+.section-info .contact-left {
+  background-color: #000;
+  -webkit-transform: skewX(-20deg);
+          transform: skewX(-20deg);
+}
+
+.section-info .contact-left .contactleft-inner {
+  background-color: #fafafa;
+  margin-right: 2.5%;
+  margin-left: -20px;
+  padding: 60px 0 60px 20px;
+}
+
+.section-info .contact-left .contactleft-inner h4 {
+  display: block;
+  -webkit-transform: skewX(20deg);
+          transform: skewX(20deg);
+}
+
+.section-info .contact-right {
+  background-color: #36f;
+  -webkit-transform: skewX(-20deg);
+          transform: skewX(-20deg);
+  padding: 40px 0;
+}
+
+.section-info .contact-right .btn-default {
+  background-color: #fafafa;
+  display: block;
+  -webkit-transform: skewX(20deg);
+          transform: skewX(20deg);
+}
+
+.section-select {
+  background-image: url("../Images/texture_dark.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.section-select h2,
+.section-select ul {
+  padding: 50px 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.section-select ul li {
+  margin-right: 20px;
+  border: 1px solid rgba(185, 185, 185, 0.65);
+  -webkit-transform: skewX(-20deg);
+          transform: skewX(-20deg);
+  padding: 1%;
+  font-size: 14px;
+}
+
+.section-select ul li a {
+  display: block;
+  text-decoration: none;
+  color: rgba(185, 185, 185, 0.65);
+  -webkit-transform: skewX(20deg);
+          transform: skewX(20deg);
+}
+
+.section-select ul li a:hover {
+  color: rgba(185, 185, 185, 0.65);
+}
+
+.section-select h2 {
+  font-size: 20px;
+}
+
+.section-gallery .gallery-showcase {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+.section-gallery .gallery-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.section-gallery .gallery-showcase li .gallery-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.section-gallery .gallery-showcase li .gallery-photo img {
+  opacity: 0.9;
+  width: 100%;
+  height: auto;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.section-gallery .gallery-showcase li .gallery-photo img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.section-contact {
+  background-color: #fdfdfd;
+}
+
+.section-contact .contact-us {
+  padding-top: 80px;
+  margin-left: 33%;
+}
+
+footer {
+  background: #dadada;
+  font-size: 14px;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+
+footer ul li {
+  margin-right: 15px;
+}
+
+footer ul li ion-icon {
+  font-size: 150%;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+footer div {
+  font-weight: 600;
+}
+
+footer p {
+  margin: 5px 0;
+  font-weight: 600;
+}
+
+footer .copyright {
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
